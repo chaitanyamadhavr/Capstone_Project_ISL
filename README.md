@@ -1,4 +1,4 @@
-![image](https://github.com/chaitanyamadhavr/Capstone_Project_ISL/assets/93692956/7823883a-d731-45aa-b2b2-c82143ec7e10)# An Efficient Real-Time Word-Level Recognition of Indian Sign Language
+# An Efficient Real-Time Word-Level Recognition of Indian Sign Language
 
 This project aims to efficiently recognize Indian Sign Language with higher accuracy and reduced inference time using machine learning techniques.
 
