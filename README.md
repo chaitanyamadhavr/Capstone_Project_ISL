@@ -1,4 +1,4 @@
-# An Efficient Real-Time Word-Level Recognition of Indian Sign Language
+![image](https://github.com/chaitanyamadhavr/Capstone_Project_ISL/assets/93692956/7823883a-d731-45aa-b2b2-c82143ec7e10)# An Efficient Real-Time Word-Level Recognition of Indian Sign Language
 
 This project aims to efficiently recognize Indian Sign Language with higher accuracy and reduced inference time using machine learning techniques.
 
@@ -11,6 +11,7 @@ Sign language facilitates communication for speech and hearing-impaired individu
 The curated dataset consists of 3,600 videos depicting 60 distinct signs of ISL, each with 60 videos. These signs involve both hand gestures captured at 640 x 720 pixels resolution. Reference for the signs were drawn from the "ISLRTC NEW DELHI" an official government-backed YouTube channel dedicated to Indian Sign Language.
 
 ## System Architecture
+![Appa Thumbnails (1)](https://github.com/chaitanyamadhavr/Capstone_Project_ISL/assets/93692956/e8cf3af0-4593-4453-9c8d-bd59c169da9e)
 
 ### Feature Extractor
 
