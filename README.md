@@ -28,12 +28,28 @@ Several machine learning models were evaluated, with Convolutional LSTM model ac
 
 In this research, we created a dataset of 3600 videos representing 60 dynamic signs in Indian Sign Language (ISL). Using Mediapipe as a feature extractor, we evaluated nine models for ISL recognition, achieving reduced inference time, real-time capability, adaptability to variable lighting conditions, and robustness against occlusions, with lower processing power demand. These models demonstrate efficiency even with smaller datasets, resulting in quicker training times averaging up to 12 minutes for all 3600 videos. Additionally, they are independent of signer-specific parameters like skin tone, gender, and movements, excelling at recognizing complex signs and handling multiple signers. Real-time recognition, integrated with a tkinter interface, showcases practical applications. These achievements lay a foundational framework for robust sign language recognition technologies, poised to significantly empower individuals with hearing impairments through accurate and efficient recognition of sign languages.
 
-## Steps to Run the Project
-Step 1: Choose a Model to run and go to its directory location in the cmd. <br>
-Step 2: In select_frame.py file, change the number of frames to be captured and run "python select_frame.py". A new directory is created for the selected frames for training. <br>
-Step 3: Change the model_def.py file, acoording to number of layers, parameters set for training. <br>
-Step 4: Run "training.py" file for the model to train on the selected frames, after which "model.keras" file is generated. <br>
-Step 5: Run "real_time.py" for the real time output. 
+### Steps to Run the Project
+
+1. **Choose a Model**: Navigate to the directory of the chosen model using the command line.  
+2. **Frame Selection**:  
+   - Open the `select_frame.py` file and modify the number of frames to be captured.  
+   - Run the following command:  
+     ```bash
+     python select_frame.py
+     ```  
+   - This will create a new directory for the selected frames to be used for training.  
+3. **Model Configuration**: Update the `model_def.py` file to configure the number of layers and training parameters as required.  
+4. **Model Training**:  
+   - Run the `training.py` file to train the model using the selected frames:  
+     ```bash
+     python training.py
+     ```  
+   - After training, a `model.keras` file will be generated.  
+5. **Real-Time Output**:  
+   - Run the `real_time.py` file for real-time output:  
+     ```bash
+     python real_time.py
+     ```
 
 ## Authors:
 
