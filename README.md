@@ -2,7 +2,7 @@
 
 This project aims to efficiently recognize Indian Sign Language with higher accuracy and reduced inference time using machine learning techniques.
 
-Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19
+Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19 <br>
 Dataset Kaggle Link: https://www.kaggle.com/datasets/prasadshet/indian-sign-language-video-dataset
 
 ## Abstract
