@@ -21,9 +21,6 @@ This research utilizes Mediapipe Holistic, a tool by Google, to extract 75 landm
 
 Several machine learning models were evaluated, with Convolutional LSTM model achieving the highest accuracy of 99.88%.
 
-### Real-time Output
-
-
 ## Conclusion
 
 In this research, we created a dataset of 3600 videos representing 60 dynamic signs in Indian Sign Language (ISL). Using Mediapipe as a feature extractor, we evaluated nine models for ISL recognition, achieving reduced inference time, real-time capability, adaptability to variable lighting conditions, and robustness against occlusions, with lower processing power demand. These models demonstrate efficiency even with smaller datasets, resulting in quicker training times averaging up to 12 minutes for all 3600 videos. Additionally, they are independent of signer-specific parameters like skin tone, gender, and movements, excelling at recognizing complex signs and handling multiple signers. Real-time recognition, integrated with a tkinter interface, showcases practical applications. These achievements lay a foundational framework for robust sign language recognition technologies, poised to significantly empower individuals with hearing impairments through accurate and efficient recognition of sign languages.
@@ -38,3 +35,5 @@ Mohan Murali K S    PES1UG20CS563
 <br>
 Likhith R           PES1UG20CS659
 <br>
+
+## Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19
