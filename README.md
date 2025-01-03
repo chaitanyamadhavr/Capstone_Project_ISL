@@ -13,11 +13,11 @@ The curated dataset consists of 3,600 videos depicting 60 distinct signs of ISL,
 ## System Architecture
 ![Appa Thumbnails (1)](https://github.com/chaitanyamadhavr/Capstone_Project_ISL/assets/93692956/e8cf3af0-4593-4453-9c8d-bd59c169da9e)
 
-### Feature Extractor
+## Feature Extractor
 
 This research utilizes Mediapipe Holistic, a tool by Google, to extract 75 landmarks representing both hand and pose elements crucial for interpreting Indian Sign Language (ISL) gestures accurately. These landmarks, represented by normalized coordinates, are organized into numpy arrays for efficient data handling. By capturing 50 frames per video and structuring data per sign, this approach facilitates precise analysis and model development. Integrating Mediapipe Holistic ensures standardized representation and empowers models to discern subtle variations in ISL gestures.
 
-### Models and Results
+## Models and Results
 
 Several machine learning models were evaluated, with Convolutional LSTM model achieving the highest accuracy of 99.88%.
 
@@ -25,7 +25,7 @@ Several machine learning models were evaluated, with Convolutional LSTM model ac
 
 In this research, we created a dataset of 3600 videos representing 60 dynamic signs in Indian Sign Language (ISL). Using Mediapipe as a feature extractor, we evaluated nine models for ISL recognition, achieving reduced inference time, real-time capability, adaptability to variable lighting conditions, and robustness against occlusions, with lower processing power demand. These models demonstrate efficiency even with smaller datasets, resulting in quicker training times averaging up to 12 minutes for all 3600 videos. Additionally, they are independent of signer-specific parameters like skin tone, gender, and movements, excelling at recognizing complex signs and handling multiple signers. Real-time recognition, integrated with a tkinter interface, showcases practical applications. These achievements lay a foundational framework for robust sign language recognition technologies, poised to significantly empower individuals with hearing impairments through accurate and efficient recognition of sign languages.
 
-Authors:
+## Authors:
 <br>
 Chaitanya Madhav R  PES1UG20CS634
 <br>
@@ -36,4 +36,4 @@ Mohan Murali K S    PES1UG20CS563
 Likhith R           PES1UG20CS659
 <br>
 
-## Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19
+Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19
