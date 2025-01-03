@@ -3,6 +3,7 @@
 This project aims to efficiently recognize Indian Sign Language with higher accuracy and reduced inference time using machine learning techniques.
 
 Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19
+Dataset Kaggle Link: https://www.kaggle.com/datasets/prasadshet/indian-sign-language-video-dataset
 
 ## Abstract
 
@@ -26,6 +27,13 @@ Several machine learning models were evaluated, with Convolutional LSTM model ac
 ## Conclusion
 
 In this research, we created a dataset of 3600 videos representing 60 dynamic signs in Indian Sign Language (ISL). Using Mediapipe as a feature extractor, we evaluated nine models for ISL recognition, achieving reduced inference time, real-time capability, adaptability to variable lighting conditions, and robustness against occlusions, with lower processing power demand. These models demonstrate efficiency even with smaller datasets, resulting in quicker training times averaging up to 12 minutes for all 3600 videos. Additionally, they are independent of signer-specific parameters like skin tone, gender, and movements, excelling at recognizing complex signs and handling multiple signers. Real-time recognition, integrated with a tkinter interface, showcases practical applications. These achievements lay a foundational framework for robust sign language recognition technologies, poised to significantly empower individuals with hearing impairments through accurate and efficient recognition of sign languages.
+
+## Steps to Run the Project
+Step 1: Choose a Model to run and go to its directory location in the cmd.
+Step 2: In select_frame.py file, change the number of frames to be captured and run "python select_frame.py". A new directory is created for the selected frames for training.
+Step 3: Change the model_def.py file, acoording to number of layers, parameters set for training.
+Step 4: Run "training.py" file for the model to train on the selected frames, after which "model.keras" file is generated.
+Step 5: Run "real_time.py" for the real time output.
 
 ## Authors:
 
