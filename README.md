@@ -29,7 +29,7 @@ In this research, we created a dataset of 3600 videos representing 60 dynamic si
 
 ## Authors:
 
-Chaitanya Madhav R <br>  PES1UG20CS634
+Chaitanya Madhav R  PES1UG20CS634
 <br>
 Prasad S Shet       PES1UG20CS575
 <br>
