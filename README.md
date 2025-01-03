@@ -2,6 +2,8 @@
 
 This project aims to efficiently recognize Indian Sign Language with higher accuracy and reduced inference time using machine learning techniques.
 
+# Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19
+
 ## Abstract
 
 Sign language facilitates communication for speech and hearing-impaired individuals. This project targets real-time recognition of word-level Indian Sign Language using machine learning. The dataset includes 3,600 videos representing 60 dynamic signs of ISL. Multiple machine learning models were assessed, with the Convolutional LSTM model achieving 99.88% accuracy. The technology aims to enrich the lives of the hearing-impaired by enhancing communication through sign language recognition.
@@ -26,7 +28,7 @@ Several machine learning models were evaluated, with Convolutional LSTM model ac
 In this research, we created a dataset of 3600 videos representing 60 dynamic signs in Indian Sign Language (ISL). Using Mediapipe as a feature extractor, we evaluated nine models for ISL recognition, achieving reduced inference time, real-time capability, adaptability to variable lighting conditions, and robustness against occlusions, with lower processing power demand. These models demonstrate efficiency even with smaller datasets, resulting in quicker training times averaging up to 12 minutes for all 3600 videos. Additionally, they are independent of signer-specific parameters like skin tone, gender, and movements, excelling at recognizing complex signs and handling multiple signers. Real-time recognition, integrated with a tkinter interface, showcases practical applications. These achievements lay a foundational framework for robust sign language recognition technologies, poised to significantly empower individuals with hearing impairments through accurate and efficient recognition of sign languages.
 
 ## Authors:
-<br>
+
 Chaitanya Madhav R  PES1UG20CS634
 <br>
 Prasad S Shet       PES1UG20CS575
@@ -35,6 +37,3 @@ Mohan Murali K S    PES1UG20CS563
 <br>
 Likhith R           PES1UG20CS659
 <br>
-
-
-Research Paper Link: https://link.springer.com/chapter/10.1007/978-981-97-6992-6_19
